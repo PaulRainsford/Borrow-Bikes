@@ -50,3 +50,13 @@ As a maintainer of the system,
 So that I can manage broken bikes and not disappoint users,
 I'd like docking stations to accept returning bikes (broken or not).
 ```
+Objects	 |  Messages
+------------- | --------------
+Person	       |
+Bike	         |  working?
+DockingStation |	release_bike
+
+```
+Bike <-- working? --> true/false
+DockingStation <-- release_bike --> a Bike
+```
