@@ -1,3 +1,5 @@
+A program to deliver a bike system with a network of docking stations and bikes anyone can use, built in Ruby with RSpec for testing.
+
 ```
 As a person,
 So that I can use a bike,
